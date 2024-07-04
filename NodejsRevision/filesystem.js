@@ -1,4 +1,6 @@
 const fs=require("fs")
+const os=require("os")
+console.log(os.cpus().length)
 let data="this is learning"
 // 1-// <----------how to write in file Asyns----->
 // fs.writeFile("./demo.txt",data,(err)=>{
@@ -31,4 +33,4 @@ let data="this is learning"
 // });
 
 // 4-if you want to delete any file
-fs.unlinkSync("../masai.txt")
+// fs.unlinkSync("../masai.txt")?\
